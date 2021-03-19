@@ -169,7 +169,7 @@ h3 + p {
     color: black;
     text-align: center;
 }
- span {
+.love > span {
      color: red;
      font-size: 15px;
  }
