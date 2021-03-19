@@ -1,46 +1,5 @@
 /* debug */
-/* nav {
-    height: 125px;
-    background-color: #E579E6;
-} */
 
-/* .jumbotron {
-    height: 300px;
-    background-color: #E1D67A;
-} */
-
-main {
-    height: 500px;
-    background-color: #0186FE;
-}
-
-.title {
-    height: 100px;
-    background-color: #ABCFE7;
-}
-
-.col-left {
-    width: 18%;
-    height: 350px;
-    background-color: #ABCFE7;
-}
-
-.col-center {
-    width: 60%;
-    height: 350px;
-    background-color: #ABCFE7;
-}
-
-.col-right {
-    width: 18%;
-    height: 350px;
-    background-color: #ABCFE7;
-}
-
-footer {
-    height: 75px;
-    background-color: #8801FE;
-}
 /* /debug */
 
 
@@ -67,7 +26,7 @@ body {
 #logo {
     height: 100%;
 }
-
+/* nav */
 nav {
     margin-bottom: 20px;
 }
@@ -90,35 +49,42 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
+/* /nav */
 
+/* jumbotron */
 .jumbotron {
     background-image: url(../img/banner.jpg);
     background-size: contain;
     background-position: center;
     height: 500px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .transparence {
-    height: 500px;
     background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.jumbo {
+    height: 500px;
     color: white;
     padding: 350px 45% 0 50px;
 }
 
-h1 {
+#pretium {
     font-size: 25px;
+    font-weight: normal;
 }
 
 p {
-    font-size: 15px;
+    font-size: 10px;
 }
-
+/* jumbotron */
 
 /* /header */
 
+/* main */
 main {
     margin-bottom: 10px;
 }
@@ -129,19 +95,82 @@ main::after {
     clear: both;
 }
 
+/* title */
 .title {
     margin-bottom: 25px;
 }
 
+.title > h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+#sot-lead {
+    font-size: 15px;
+    color: grey;
+}
+/* /title */
+
+/* colunms */
 .col-left {
     float: left;
+    width: 18%;
+}
+
+.size {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#img1{
+    background-image: url(../img/img-1.jpg);
+}
+
+.h-img {
+    height: 200px;
+}
+
+h3 {
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+h3 + p {
+    color: grey;
 }
 
 .col-center {
     float: left;
+    width: 60%;
     margin:0 2%;
+}
+
+#img2{
+    background-image: url(../img/banner-2.jpg);
 }
 
 .col-right {
     float: right;
+    width: 18%;
 }
+
+#img3{
+    background-image: url(../img/img-3.jpg);
+}
+/* /colunms */
+/* /main */
+
+/* footer */
+.love {
+    font-size: 10px;
+    color: black;
+    text-align: center;
+}
+ span {
+     color: red;
+     font-size: 15px;
+ }
+/* /footer */
